@@ -1,4 +1,5 @@
-#Stack Visualizer - The Ultimate Stack Visualization Tool
+# Stack Visualizer - The Ultimate Stack Visualization Tool
+
 Stack Visualizer is a powerful and intuitive tool for visualizing the workings of a stack data structure. Whether you're a computer science student, a software engineer, or just someone who wants to understand how stacks work, Stack Visualizer is the perfect tool for you.
 
 With Stack Visualizer, you can easily see the push and pop operations performed on a stack, watch how elements are added and removed, and understand the inner workings of this important data structure. The intuitive user interface and animations make it easy to see how the stack works, and the ability to step through the visualization one operation at a time allows you to truly grasp the concepts involved.
