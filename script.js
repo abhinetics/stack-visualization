@@ -37,14 +37,15 @@ function updateStackVisualization() {
 const stackElement = document.getElementById("stack");
 
   stackElement.innerHTML = "";
-  for (let i = 0; i < stack.length; i++) {
-    const element = document.createElement("div") ;
+  for (let i = stack.length - 1; i >= 0; i--) {
+    const element = document.createElement("div");
     element.classList.add("stack-element");
     element.innerHTML = stack[i];
     element.style.backgroundColor = getRandomColor(i);
     element.style.opacity = "0.7";
     stackElement.appendChild(element);
   }
+  
 }
 
 function getRandomColor(j) {
